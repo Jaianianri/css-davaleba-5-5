@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #040405;
+}
+
+.header-container {
+    display: flex;
+    width: 1040px;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.paragraf-container {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Connect {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #00FF1A;
+}
+
+.Stake {
+    color: #FFF;
+    gap: 16px;
+    font-family: Inter;
+    font-size: 16px;
+
+    line-height: 24px;
+}
+
+
+
+.box-box {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    gap: 151px;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+main {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.City {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Convex {
+    max-width: 1040px;
+    width: 100%;
+}
+
+.Welcome {
+    stroke-width: 2px;
+    stroke: #00FF1A;
+    display: flex;
+    gap: 12px;
+}
+
+.better {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    max-width: 564px;
+}
+
+.tokens {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    max-width: 546px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.works {
+    color: #FFF;
+    font-family: Inter;
+    gap: 16PX;
+    background-color: #000;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    padding: 12px 24px;
+}
+
+.Now {
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: #00FF1A;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal
+}
+
+
+.How {
+    display: flex;
+    gap: 16PX;
+
+}
