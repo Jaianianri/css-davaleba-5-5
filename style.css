@@ -47,7 +47,6 @@ body {
 
 .box-box {
     display: flex;
-    background-color: aqua;
     align-items: center;
     justify-content: space-between;
     gap: 151px;
@@ -71,6 +70,12 @@ main {
     display: flex;
     justify-content: center;
 
+}
+
+.Welcome {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
 }
 
 
@@ -137,4 +142,71 @@ main {
     display: flex;
     gap: 16PX;
 
+}
+
+.dolar {
+    border-top: 1px solid #00FF1A;
+    display: flex;
+    margin-top: 112px;
+    max-width: 815px;
+    width: 100%;
+    gap: 40px;
+}
+
+
+.TVL {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    width: 158px;
+}
+
+.dolar-paragraf {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    width: 127px;
+}
+.TVL1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    width: 133px;
+}
+.dolar-paragraf1 {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    width: 161px;
+}
+.TVL2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    width: 164px;
+}
+.dolar-paragraf2  {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    width: 195px;
+}
+.TVL3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    width: 142px;
+}
+.dolar-paragraf3 {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    width: 181px;
+}
+
+.box-div {
+    padding-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
 }
