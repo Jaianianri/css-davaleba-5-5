@@ -10,12 +10,16 @@ body {
 
 .header-container {
     display: flex;
-    width: 1040px;
+    max-width: 1040px;
     padding: 16px 0;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .paragraf-container {
@@ -66,7 +70,7 @@ body {
 }
 
 main {
-    margin-top: 64px;
+    margin-top: 112px;
     display: flex;
     justify-content: center;
 
@@ -151,6 +155,7 @@ main {
     max-width: 815px;
     width: 100%;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 
@@ -167,36 +172,42 @@ main {
     font-size: 20px;
     width: 127px;
 }
+
 .TVL1 {
     color: #FFF;
     font-family: Inter;
     font-size: 32px;
     width: 133px;
 }
+
 .dolar-paragraf1 {
     color: #7A7A7A;
     font-family: Inter;
     font-size: 20px;
     width: 161px;
 }
+
 .TVL2 {
     color: #FFF;
     font-family: Inter;
     font-size: 32px;
     width: 164px;
 }
-.dolar-paragraf2  {
+
+.dolar-paragraf2 {
     color: #7A7A7A;
     font-family: Inter;
     font-size: 20px;
     width: 195px;
 }
+
 .TVL3 {
     color: #FFF;
     font-family: Inter;
     font-size: 32px;
     width: 142px;
 }
+
 .dolar-paragraf3 {
     color: #7A7A7A;
     font-family: Inter;
@@ -209,4 +220,210 @@ main {
     flex-direction: column;
     gap: 16px;
     display: flex;
+}
+
+.Staking {
+    display: flex;
+    width: 1040px;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 112px;
+}
+
+.Curve {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.vector {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Provider {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Boosted {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 56px;
+}
+
+.Deposit {
+    color: #7A7A7A;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: norma
+}
+
+.Withdrawals {
+    display: flex;
+    gap: 16px;
+}
+
+.withdr {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.pooled {
+    color: #7A7A7A;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.tokens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.pay {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.QR {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+}
+
+.you {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.work {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 112px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.How {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+}
+
+.Our {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.logo-container {
+    max-width: 863px;
+    width: 100%;
+}
+
+.logo-wraper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Register {
+    max-width: 245px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    gap: 12px;
+    display: flex
+}
+
+.dd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vector {
+    padding: 0 10px;
+}
+
+.into {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.Convex {
+    color: #7A7A7A;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Put {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 112px;
+    background-color: blue;
+    height: 500px;
+}
+
+.put-box1 {
+    max-width: 509px;
+    width: 100%;
+    background-color: red;
+    height: 1000px;
+}
+
+.vector-box1 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.Stake-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fees {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 55px;
+}
+.Curve {
+    color: #7A7A7A;
+
+font-family: Inter;
+font-size: 20px;
 }
