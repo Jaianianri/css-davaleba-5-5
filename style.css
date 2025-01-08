@@ -469,3 +469,51 @@ main {
     border-left: 2px solid #4A4A4E;
     max-width: 506px;
 }
+
+.Testimonials {
+    background-color: aqua;
+    display: flex;
+    margin-top: 112px;
+}
+
+.Williamson {
+    background-color: red;
+    width: 624px;
+    height: 416px;
+}
+
+.New {
+    background-color: #00FF1A;
+    width: 624px;
+    height: 227px;
+}
+
+.York {
+    background-color: blue;
+}
+
+.Cameron {
+    display: flex;
+    flex-direction: column;
+}
+
+.victor1 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.NewYork {
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #1C1C20;
+}
+
+.Rectangle2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
